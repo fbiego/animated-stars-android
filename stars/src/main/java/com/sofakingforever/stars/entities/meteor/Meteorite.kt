@@ -1,7 +1,7 @@
 package com.sofakingforever.stars.entities.meteor
 
 import android.graphics.*
-import android.support.v4.graphics.ColorUtils
+import androidx.core.graphics.ColorUtils
 
 
 internal class Meteorite(val smallestWidth: Int, var x: Int, var y: Int, val starSize: Int, var color: Int, val listener: Meteorite.MeteoriteCompleteListener) {
